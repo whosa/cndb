@@ -1,3 +1,8 @@
+-- CnDB
+-- Trinitycore 数据库中文支持
+-- version 0.1
+-- http://code.google.com/p/cndb/
+
 UPDATE `creature_template` SET `entry` = 3,`name` = '食腐者',`subname` = '' WHERE `creature_template`.`entry` = 3;
 UPDATE `creature_template` SET `entry` = 6,`name` = '狗头人恶党',`subname` = '' WHERE `creature_template`.`entry` = 6;
 UPDATE `creature_template` SET `entry` = 30,`name` = '森林蜘蛛',`subname` = '' WHERE `creature_template`.`entry` = 30;

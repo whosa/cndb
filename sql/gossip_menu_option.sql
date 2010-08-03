@@ -1,3 +1,8 @@
+-- CnDB
+-- Trinitycore 数据库中文支持
+-- version 0.1
+-- http://code.google.com/p/cndb/
+
 UPDATE `gossip_menu_option` SET `menu_id` = 0,`id` = 0,`option_text` = '任务给予者' WHERE `gossip_menu_option`.`menu_id` = 0 AND `gossip_menu_option`.`id` = 0;
 UPDATE `gossip_menu_option` SET `menu_id` = 0,`id` = 1,`option_text` = '我想购买你的货物' WHERE `gossip_menu_option`.`menu_id` = 0 AND `gossip_menu_option`.`id` = 1;
 UPDATE `gossip_menu_option` SET `menu_id` = 0,`id` = 2,`option_text` = '我需要一个坐骑' WHERE `gossip_menu_option`.`menu_id` = 0 AND `gossip_menu_option`.`id` = 2;
