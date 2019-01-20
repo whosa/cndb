@@ -1,8 +1,4 @@
--- CnDB
--- Trinitycore 数据库中文支持
--- version 0.1
--- http://code.google.com/p/cndb/
-
+truncate table `gossip_menu_option_locale`;
 insert into `gossip_menu_option_locale` (`MenuID`, `OptionID`, `Locale`, `OptionText`, `BoxText`) values ( 0,  0, 'zhCN',  '任务给予者' , NULL);
 insert into `gossip_menu_option_locale` (`MenuID`, `OptionID`, `Locale`, `OptionText`, `BoxText`) values ( 0,  1, 'zhCN',  '我想购买你的货物' , NULL);
 insert into `gossip_menu_option_locale` (`MenuID`, `OptionID`, `Locale`, `OptionText`, `BoxText`) values ( 0,  2, 'zhCN',  '我需要一个坐骑' , NULL);

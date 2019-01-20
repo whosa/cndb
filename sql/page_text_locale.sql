@@ -1,10 +1,4 @@
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8 */;
-/*!50503 SET NAMES utf8mb4 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-
-/*!40000 ALTER TABLE `page_text_locale` DISABLE KEYS */;
+truncate table `page_text_locale`;
 INSERT INTO `page_text_locale` (`ID`, `locale`, `Text`, `VerifiedBuild`) VALUES
 	(15, 'zhCN', '你好，摩根。$B $B 闪金镇的交易非常繁忙，所以我根本抽不出时间来帮你送货！$B $B 我已委托帮我送这封信的人给你带去一包大蜡烛（你知道，可笑的狗头人总喜欢把这些东西戴在头上）。$B $B 请向这位送货的人表示我们的感谢，并给予他合理的报酬。 ', 0);
 INSERT INTO `page_text_locale` (`ID`, `locale`, `Text`, `VerifiedBuild`) VALUES

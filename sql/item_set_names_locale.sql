@@ -1,3 +1,5 @@
+truncate table `item_set_names_locale`;
+
 INSERT INTO `item_set_names_locale` (`ID`, `locale`, `Name`, `VerifiedBuild`) VALUES
 	(6473, 'zhCN', '尖牙铠甲', 15050);
 INSERT INTO `item_set_names_locale` (`ID`, `locale`, `Name`, `VerifiedBuild`) VALUES

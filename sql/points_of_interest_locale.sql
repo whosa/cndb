@@ -1,3 +1,4 @@
+truncate table `points_of_interest_locale`;
 INSERT INTO `points_of_interest_locale` VALUES (1, 'zhCN', '狮王之傲旅店', 0);
 INSERT INTO `points_of_interest_locale` VALUES (2, 'zhCN', '札尔迪玛·维夫希尔特', 0);
 INSERT INTO `points_of_interest_locale` VALUES (3, 'zhCN', '维尔海姆修士', 0);
